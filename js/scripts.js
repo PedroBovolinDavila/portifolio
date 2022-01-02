@@ -26,9 +26,11 @@ gsap.from('.hero-animate-image', {
     x: -150,
 })
 
+// About animations
+
 gsap.from('.about-heading-animate', {
     scrollTrigger: '.about',
-    duration: 0.8,
+    duration: 0.5,
     opacity: 0,
     y: -150,
     stagger: 0.4
@@ -39,5 +41,24 @@ gsap.from('.about-card-animate', {
     duration: 1,
     opacity: 0,
     x: -150,
-    stagger: 0.5
+    stagger: 0.5,
+    delay: 0.3
+})
+
+// Techs
+
+gsap.from('.tech-image-animate',{
+    scrollTrigger: '.tech',
+    duration: 1,
+    opacity: 0,
+    x: -150,
+    stagger: 0.5,
+})
+
+gsap.from('.tech-card-text-animate',{
+    scrollTrigger: '.tech',
+    duration: 1,
+    opacity: 0,
+    y: -150,
+    stagger: 0.4,
 })
