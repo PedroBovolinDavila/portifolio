@@ -26,6 +26,14 @@ gsap.from('.hero-animate-image', {
     x: -150,
 })
 
+gsap.from('.social-animate', {
+    duration: 1,
+    opacity: 0,
+    x: -150,
+    delay: 0.3,
+    stagger: 0.4
+})
+
 // About animations
 
 gsap.from('.about-heading-animate', {
