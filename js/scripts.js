@@ -62,3 +62,26 @@ gsap.from('.tech-card-text-animate',{
     y: -150,
     stagger: 0.4,
 })
+
+// Projetos 
+
+const notOnGithub = () => {
+    alert('Esse projeto não esta no Github');
+}
+
+gsap.from('.projetos-heading-animate', {
+    scrollTrigger: '.projetos',
+    duration: 0.5,
+    opacity: 0,
+    y: -150,
+    stagger: 0.4
+})
+
+gsap.from('.projetos-card-animate', {
+    scrollTrigger: '.projetos',
+    duration: 1,
+    opacity: 0,
+    x: -150,
+    stagger: 0.2,
+    delay: 0.3
+})
