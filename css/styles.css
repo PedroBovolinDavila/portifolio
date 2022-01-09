@@ -8,7 +8,6 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
-
 }
 
 :root {
@@ -207,6 +206,7 @@
 .about_cards {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 25px;
 }
 
@@ -344,6 +344,7 @@
 
 .projeto_card {
     overflow: hidden;
+    justify-content: space-evenly;
 }
 
 .projeto_heading {
